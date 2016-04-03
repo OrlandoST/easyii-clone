@@ -1,3 +1,9 @@
+<?php
+use app\widgets\Profile;
+use app\widgets\Sidebarmenu;
+use app\widgets\Topnav;
+use app\widgets\Sidebarfooter;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,19 +18,19 @@
 
   <!-- Bootstrap core CSS -->
 
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/test/css/bootstrap.min.css" rel="stylesheet">
 
-  <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="/assets/test/fonts/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/assets/test/css/animate.min.css" rel="stylesheet">
 
   <!-- Custom styling plus plugins -->
-  <link href="css/custom.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/maps/jquery-jvectormap-2.0.3.css" />
-  <link href="css/icheck/flat/green.css" rel="stylesheet" />
-  <link href="css/floatexamples.css" rel="stylesheet" type="text/css" />
+  <link href="/assets/test/css/custom.css" rel="stylesheet">
+  <link rel="/stylesheet" type="text/css" href="/assets/test/css/maps/jquery-jvectormap-2.0.3.css" />
+  <link href="/assets/test/css/icheck/flat/green.css" rel="stylesheet" />
+  <link href="/assets/test/css/floatexamples.css" rel="stylesheet" type="text/css" />
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/nprogress.js"></script>
+  <script src="/assets/test/js/jquery.min.js"></script>
+  <script src="/assets/test/js/nprogress.js"></script>
 
   <!--[if lt IE 9]>
         <script src="../assets/js/ie8-responsive-file-warning.js"></script>
@@ -51,7 +57,7 @@
 
           <!-- menu prile quick info -->
           <div class="profile">
-            <?= ProfileWidget::widget() ?>
+            <?= Profile::widget() ?>
           </div>
           <!-- /menu prile quick info -->
 
@@ -59,20 +65,20 @@
 
           <!-- sidebar menu -->
           <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
-              <?= SidebarWidget::widget() ?>
+              <?= Sidebarmenu::widget() ?>
               </div>
            <!-- /sidebar menu -->
 
           <!-- /menu footer buttons -->
           <div class="sidebar-footer hidden-small">
-           <?= SitebarfooterWidget::widget() ?>
+           <?= Sidebarfooter::widget() ?>
           </div>
           <!-- /menu footer buttons -->
         </div>
       </div>
       <!-- top navigation -->
       <div class="top_nav">
-        <?= TopnavWidget::widget() ?>
+        <?= Topnav::widget() ?>
       </div>
       <!-- /top navigation -->
       <!-- page content -->
@@ -93,12 +99,12 @@
     <div id="notif-group" class="tabbed_notifications"></div>
   </div>
 
-  <script src="js/bootstrap.min.js"></script>
+  <script src="/assets/test/js/bootstrap.min.js"></script>
 
   <!-- gauge js -->
     <!-- bootstrap progress js -->
   <script src="js/progressbar/bootstrap-progressbar.min.js"></script>
-  <script src="js/nicescroll/jquery.nicescroll.min.js"></script>
+  <script src="/assets/test/js/nicescroll/jquery.nicescroll.min.js"></script>
   <!-- icheck -->
   <script src="js/icheck/icheck.min.js"></script>
   <!-- daterangepicker -->
@@ -107,7 +113,7 @@
   <!-- chart js -->
   <script src="js/chartjs/chart.min.js"></script>
 
-  <script src="js/custom.js"></script>
+  <script src="/assets/test/js/custom.js"></script>
 
   <!-- flot js -->
   <!--[if lte IE 8]><script type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->

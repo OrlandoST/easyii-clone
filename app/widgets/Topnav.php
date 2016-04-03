@@ -4,7 +4,7 @@ namespace app\widgets;
 use Yii;
 use yii\base\Widget;
 
-class TopnavWidget extends Widget
+class Topnav extends Widget
 {
 
     public function init()

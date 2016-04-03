@@ -4,7 +4,7 @@ namespace app\widgets;
 use Yii;
 use yii\base\Widget;
 
-class ProfileWidget extends Widget
+class Profile extends Widget
 {
 
     public function init()

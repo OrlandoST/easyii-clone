@@ -4,7 +4,7 @@ namespace app\widgets;
 use Yii;
 use yii\base\Widget;
 
-class SidebarWidget extends Widget
+class Sidebarmenu extends Widget
 {
 
     public function init()
@@ -14,7 +14,7 @@ class SidebarWidget extends Widget
 
     public function run()
     {
-        return $this->render('sidebar');
+        return $this->render('sidebarmenu');
     }
 
 }

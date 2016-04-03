@@ -4,7 +4,7 @@ namespace app\widgets;
 use Yii;
 use yii\base\Widget;
 
-class SitebarfooterWidget extends Widget
+class Sidebarfooter extends Widget
 {
 
     public function init()
@@ -14,7 +14,7 @@ class SitebarfooterWidget extends Widget
 
     public function run()
     {
-        return $this->render('sitebarfooter');
+        return $this->render('sidebarfooter');
     }
 
 }

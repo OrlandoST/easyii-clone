@@ -22,6 +22,7 @@ class SiteController extends Controller
     
     public function actionTest()
     {
+        $this->layout = "test";
         return $this->render('test');
     }
 }
